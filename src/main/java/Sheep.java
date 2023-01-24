@@ -5,6 +5,10 @@ public class Sheep {
     public double weight;
     public static int numberOfSheep = 0;
 
+    public Sheep() {
+        Sheep.numberOfSheep++;
+    }
+
     public Sheep(String sName, String sFavColor, int sheight, int sweight) {
         this.SheepName = sName;
         this.SheepFavColor = sFavColor;
